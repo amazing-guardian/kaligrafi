@@ -1,0 +1,58 @@
+* {
+	direction: rtl;
+}
+h1 {
+	font-size: 70px;
+	word-wrap: break-word;
+}
+.hasil p {
+	background-color: yellow;
+}
+
+@font-face {
+	font-family: naskhi;
+	src: url("../font/UthmanicHafs1 Ver09.otf");
+}
+.naskhi {
+	font-family: naskhi;
+}
+
+@font-face {
+	font-family: riqah;
+	src: url("../font/BArabics.ttf");
+}
+.riqah {
+	font-family: riqah;
+}
+
+@font-face {
+	font-family: kufi;
+	src: url("../font/ae_AlBattar.ttf");
+}
+.kufi {
+	font-family: kufi;
+}
+
+@font-face {
+	font-family: diwani;
+	src: url("../font/Diwanltr.ttf");
+}
+.diwani {
+	font-family: diwani;
+}
+
+@font-face {
+	font-family: tsuluts;
+	src: url("../font/Khat Thuluth.TTF");
+}
+.tsuluts {
+	font-family: tsuluts;
+}
+
+@font-face {
+	font-family: farisi;
+	src: url("../font/Frsspbl.ttf");
+}
+.farisi {
+	font-family: farisi;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app>
+	<head>
+		<title>Kaligrafi</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bin/w3.css"/>
+		<link rel="stylesheet" href="bin/style.css">
+		<script src="bin/angular.min.js"></script>
+	</head>
+	<body class="w3-container">
+		<br>
+		<h1 class="w3-center">خط</h1>
+		<hr>
+		<center>
+			<input type="teks" ng-model="teks" placeholder="اكتب هنا" />
+		</center>
+		<br>
+		<br>
+		<div class="hasil">
+
+			<p>خط نسخ</p>
+			<h1 class="naskhi">{{teks}}</h1>
+
+			<p>خط رقعة</p>
+			<h1 class="riqah">{{teks}}</h1>
+
+			<p>خط كوفي</p>
+			<h1 class="kufi">{{teks}}</h1>
+
+			<p>خط ديواني</p>
+			<h1 class="diwani">{{teks}}</h1>
+
+			<p>خط ثلث</p>
+			<h1 class="tsuluts">{{teks}}</h1>
+
+			<p>خط فارسي</p>
+			<h1 class="farisi">{{teks}}</h1>
+
+		</div>
+		<hr>
+		<p class="w3-center" style="direction: ltr;">Aplikasi ini dibuat oleh <a href='https://api.whatsapp.com/send?phone=6281545143654&text=Assalamualaikum%20Kak%20Zen.'>Zen</a>.</p>
+		<br>
+
+	</body>
+</html>
